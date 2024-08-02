@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 40px;
+    font-size: 16px;
+}
+div{
+    overflow: hidden;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    color: #c4b351;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold',;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(37, 107, 84);
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+.container{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    padding-left: 30px;
+}
+.menu{
+    background-color: rgb(117, 58, 131);
+    padding: 10px;
+    border-radius: 35px;
+}
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: rgb(219, 229, 238);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.menu ul li a:hover{
+    color: rgb(45, 2, 41);
+    background-color: rgb(194, 209, 187);
+    border-radius: 20px;
+}
+.content{
+    padding: 10px 0px;
+}
+.col_1{
+    width: 33.33%;
+    float: left;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.blog_1{
+    padding: 4px;
+    border-radius: 10px;
+    border: 5px solid #a5a4a4;
+    text-align: justify;
+}
+.row_1{
+    padding: 4px 0px;
+}
+.footer{
+    background-color: rgb(187, 210, 203);
+    color: rgb(238, 228, 217);
+    text-align: center;
+    border-radius: 25px;
+}
